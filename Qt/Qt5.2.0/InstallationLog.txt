@@ -1,0 +1,638 @@
+*************************************Invoked:lun. 3. févr. 09:18:55 2014Operations start: 241961
+Operations end: 16
+Resource count: 1
+Data block size: 592812434
+Magic marker: 302133811
+Magic cookie: 14007050384008702200
+Index size: 48
+End of data: 606642066
+Number of operations: 0
+StartMenuPath: 	 "C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs"
+DesktopDir: 	 "C:\Users\clientmd\Desktop"
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+components list is empty in bool __thiscall QInstaller::PackageManagerCorePrivate::appendComponentsToUninstall(const class QList<class QInstaller::Component *> &)
+Tmp and install folder are on the same volume. Volume mount point: "C:\" Free space available: "34.37 GiB"
+Installation space required: "2.43 GiB" Temporary space required: "256.00 MiB" Local repository size: "0.00 bytes"
+backup  operation: Mkdir
+	- arguments: C:/Qt/Qt5.2.0
+Done
+perform  operation: Mkdir
+	- arguments: C:/Qt/Qt5.2.0
+Done
+Install size: 9 components
+backup qt operation: Extract
+	- arguments: installer://qt/1.0.0ThirdPartySoftware_Listing.7z, C:\Qt\Qt5.2.0
+Done
+perform qt operation: Extract
+	- arguments: installer://qt/1.0.0ThirdPartySoftware_Listing.7z, C:\Qt\Qt5.2.0
+Done
+backup qt operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0/MaintenanceTool.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/Uninstall Qt 5.2.0.lnk,  --uninstall
+Done
+perform qt operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0/MaintenanceTool.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/Uninstall Qt 5.2.0.lnk,  --uninstall
+Done
+backup qt operation: License
+	- arguments: 
+Done
+perform qt operation: License
+	- arguments: 
+Done
+backup qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0qt-project-url.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0qt-project-url.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0readme.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0readme.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.readme operation: CreateShortcut
+	- arguments: C:\Windows\notepad.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/README.lnk, C:\Qt\Qt5.2.0//README.txt
+Done
+perform qt.readme operation: CreateShortcut
+	- arguments: C:\Windows\notepad.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/README.lnk, C:\Qt\Qt5.2.0//README.txt
+Done
+backup qt.readme operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0/qt-project.org.html, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/qt-project.org.lnk
+Done
+perform qt.readme operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0/qt-project.org.html, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/qt-project.org.lnk
+Done
+backup qt.tools.vcredist operation: Extract
+	- arguments: installer://qt.tools.vcredist/2011-03-03vcredist_sp1_x86.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.tools.vcredist operation: Extract
+	- arguments: installer://qt.tools.vcredist/2011-03-03vcredist_sp1_x86.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/3.0.0D3DCompiler_43-x86.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/3.0.0D3DCompiler_43-x86.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/3.0.0qt-creator-opensource-vs2010-32.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/3.0.0qt-creator-opensource-vs2010-32.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.tools.qtcreator operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0\Qt Creator.lnk, workingDirectory=C:\Qt\Qt5.2.0\Tools\QtCreator\bin
+Done
+perform qt.tools.qtcreator operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0\Qt Creator.lnk, workingDirectory=C:\Qt\Qt5.2.0\Tools\QtCreator\bin
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: ui, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt UI file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,4, ProgId=QtProject.QtCreator.ui
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: ui, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt UI file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,4, ProgId=QtProject.QtCreator.ui
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: pro, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Project file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,5, ProgId=QtProject.QtCreator.pro
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: pro, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Project file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,5, ProgId=QtProject.QtCreator.pro
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: pri, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Project Include file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,6, ProgId=QtProject.QtCreator.pri
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: pri, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Project Include file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,6, ProgId=QtProject.QtCreator.pri
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: qbs, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qbs Project file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,5, ProgId=QtProject.QtCreator.qbs
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: qbs, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qbs Project file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,5, ProgId=QtProject.QtCreator.qbs
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: qs, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Script file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,0, ProgId=QtProject.QtCreator.qs
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: qs, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Script file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,0, ProgId=QtProject.QtCreator.qs
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: qml, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Quick Markup language file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,7, ProgId=QtProject.QtCreator.qml
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: qml, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", Qt Quick Markup language file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,7, ProgId=QtProject.QtCreator.qml
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: h, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.h
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: h, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.h
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: hh, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.hh
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: hh, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.hh
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: hxx, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.hxx
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: hxx, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.hxx
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: h++, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.h++
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: h++, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.h++
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: hpp, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.hpp
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: hpp, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Header file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,3, ProgId=QtProject.QtCreator.hpp
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cc, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cc
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cc, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cc
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cxx, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cxx
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cxx, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cxx
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: c++, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.c++
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: c++, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.c++
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cp, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cp
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cp, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cp
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cpp, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cpp
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: cpp, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C++ Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,2, ProgId=QtProject.QtCreator.cpp
+Done
+backup qt.tools.qtcreator operation: RegisterFileType
+	- arguments: c, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,1, ProgId=QtProject.QtCreator.c
+Done
+perform qt.tools.qtcreator operation: RegisterFileType
+	- arguments: c, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe -client "%1", C Source file, text/plain, C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe,1, ProgId=QtProject.QtCreator.c
+Done
+backup qt.520.win32_msvc2012.essentials operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.essentials/5.2.0d3dcompiler_46_32.dll.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.520.win32_msvc2012.essentials operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.essentials/5.2.0d3dcompiler_46_32.dll.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.520.win32_msvc2012.essentials operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.essentials/5.2.0icu_51_1_msvc_2012_32.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.520.win32_msvc2012.essentials operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.essentials/5.2.0icu_51_1_msvc_2012_32.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.520.win32_msvc2012.essentials operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.essentials/5.2.0msvc2012_32_essentials.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.520.win32_msvc2012.essentials operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.essentials/5.2.0msvc2012_32_essentials.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.520.win32_msvc2012.essentials operation: ConsumeOutput
+	- arguments: qt.520.win32_msvc2012_qmakeoutput, C:\Qt\Qt5.2.0/5.2.0/msvc2012/bin/qmake.exe, -query
+Done
+perform qt.520.win32_msvc2012.essentials operation: ConsumeOutput
+	- arguments: qt.520.win32_msvc2012_qmakeoutput, C:\Qt\Qt5.2.0/5.2.0/msvc2012/bin/qmake.exe, -query
+Done
+backup qt.520.win32_msvc2012.essentials operation: QtPatch
+	- arguments: windows, C:\Qt\Qt5.2.0/5.2.0/msvc2012, qt5
+Done
+perform qt.520.win32_msvc2012.essentials operation: QtPatch
+	- arguments: windows, C:\Qt\Qt5.2.0/5.2.0/msvc2012, qt5
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/declarative/helper/deployment.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/declarative/helper/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/gui/openglwindow/openglwindow.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/gui/rasterwindow/rasterwindow.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/spectrum/spectrum.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/qmlvideofx/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/frequencymonitor/frequencymonitor.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/frequencymonitor/frequencymonitordeclarative.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/performancemonitor/performancemonitor.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/performancemonitor/performancemonitordeclarative.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/basiclayouts/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/gallery/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/splitview/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/tableview/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/texteditor/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/touch/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/script/customclass/bytearrayclass.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/script/qsdbg/qsdbg.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/widgets/painting/shared/shared.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libEGL.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libEGLd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libGLESv2.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libGLESv2d.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Bootstrap.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5CLucene.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5CLucened.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Concurrent.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Concurrentd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Core.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Cored.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Declarative.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Declaratived.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Designer.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5DesignerComponents.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5DesignerComponentsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Designerd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Gui.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Guid.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Help.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Helpd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Multimedia.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Multimediad.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaQuick_p.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaQuick_pd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaWidgets.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaWidgetsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Network.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Networkd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGL.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGLd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGLExtensions.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGLExtensionsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PlatformSupport.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PlatformSupportd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PrintSupport.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PrintSupportd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Qml.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Qmld.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QmlDevTools.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Quick.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Quickd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickParticles.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickParticlesd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickTest.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickTestd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Script.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Scriptd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5ScriptTools.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5ScriptToolsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Sql.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Sqld.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Test.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Testd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5UiTools.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5UiToolsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKit.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKitd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKitWidgets.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKitWidgetsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Widgets.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Widgetsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Xml.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Xmld.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5XmlPatterns.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5XmlPatternsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/qtmain.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/qtmaind.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/features/dbuscommon.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_bootstrap_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_clucene_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_concurrent.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_concurrent_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_core.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_core_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_declarative.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_declarative_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_designer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_designercomponents_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_designer_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_gui.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_gui_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_help.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_help_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimedia.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimediawidgets.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimediawidgets_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimedia_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_network.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_network_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_opengl.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_openglextensions.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_openglextensions_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_opengl_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_platformsupport_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_printsupport.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_printsupport_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qml.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qmldevtools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qmltest.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qmltest_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qml_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_quick.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_quickparticles_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_quick_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_script.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_scripttools.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_scripttools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_script_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_sql.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_sql_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_testlib.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_testlib_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_uitools.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_uitools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkit.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkitwidgets.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkitwidgets_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkit_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_widgets.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_widgets_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xml.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xmlpatterns.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xmlpatterns_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xml_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qconfig.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qdevice.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qfeatures.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qmodule.pri'
+Done
+backup qt.520.win32_msvc2012.essentials operation: AppendFile
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012\bin\qtenv2.bat, echo off
+echo Setting up environment for Qt usage...
+set PATH=C:\Qt\Qt5.2.0\5.2.0\msvc2012\bin;%PATH%
+cd /D C:\Qt\Qt5.2.0\5.2.0\msvc2012
+
+Done
+perform qt.520.win32_msvc2012.essentials operation: AppendFile
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012\bin\qtenv2.bat, echo off
+echo Setting up environment for Qt usage...
+set PATH=C:\Qt\Qt5.2.0\5.2.0\msvc2012\bin;%PATH%
+cd /D C:\Qt\Qt5.2.0\5.2.0\msvc2012
+
+Done
+backup qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Windows\system32\cmd.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Qt 5.2.0 32-bit for Desktop (MSVC 2012).lnk, /A /Q /K C:\Qt\Qt5.2.0\5.2.0\msvc2012\bin\qtenv2.bat
+Done
+perform qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Windows\system32\cmd.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Qt 5.2.0 32-bit for Desktop (MSVC 2012).lnk, /A /Q /K C:\Qt\Qt5.2.0\5.2.0\msvc2012\bin\qtenv2.bat
+Done
+backup qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012/bin/assistant.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Assistant.lnk
+Done
+perform qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012/bin/assistant.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Assistant.lnk
+Done
+backup qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012/bin/designer.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Designer.lnk
+Done
+perform qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012/bin/designer.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Designer.lnk
+Done
+backup qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012/bin/linguist.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Linguist.lnk
+Done
+perform qt.520.win32_msvc2012.essentials operation: CreateShortcut
+	- arguments: C:\Qt\Qt5.2.0\5.2.0\msvc2012/bin/linguist.exe, C:\Users\clientmd\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.2.0/5.2.0/MSVC 2012 (32-bit)/Linguist.lnk
+Done
+backup qt.520.win32_msvc2012.essentials operation: Execute
+	- arguments: C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, addQt, --id, qt.520.win32_msvc2012.essentials, --name, Qt 5.2.0 MSVC2012 32bit, --type, Qt4ProjectManager.QtVersion.Desktop, --qmake, C:\Qt\Qt5.2.0/5.2.0/msvc2012/bin/qmake.exe, UNDOEXECUTE, C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, rmQt, --id, qt.520.win32_msvc2012.essentials
+Done
+perform qt.520.win32_msvc2012.essentials operation: Execute
+	- arguments: C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, addQt, --id, qt.520.win32_msvc2012.essentials, --name, Qt 5.2.0 MSVC2012 32bit, --type, Qt4ProjectManager.QtVersion.Desktop, --qmake, C:\Qt\Qt5.2.0/5.2.0/msvc2012/bin/qmake.exe, UNDOEXECUTE, C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, rmQt, --id, qt.520.win32_msvc2012.essentials
+C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe" started, arguments: "addQt --id qt.520.win32_msvc2012.essentials --name Qt 5.2.0 MSVC2012 32bit --type Qt4ProjectManager.QtVersion.Desktop --qmake C:\Qt\Qt5.2.0/5.2.0/msvc2012/bin/qmake.exe
+Done
+backup qt.520.win32_msvc2012.essentials operation: Execute
+	- arguments: C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, addKit, --id, qt.520.win32_msvc2012.essentials_kit, --name, Desktop Qt 5.2.0 MSVC2012 32bit, --toolchain, x86-windows-msvc2012-pe-32bit, --qt, qt.520.win32_msvc2012.essentials, --debuggerengine, 4, --devicetype, Desktop, UNDOEXECUTE, C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, rmKit, --id, qt.520.win32_msvc2012.essentials_kit
+Done
+perform qt.520.win32_msvc2012.essentials operation: Execute
+	- arguments: C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, addKit, --id, qt.520.win32_msvc2012.essentials_kit, --name, Desktop Qt 5.2.0 MSVC2012 32bit, --toolchain, x86-windows-msvc2012-pe-32bit, --qt, qt.520.win32_msvc2012.essentials, --debuggerengine, 4, --devicetype, Desktop, UNDOEXECUTE, C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe, rmKit, --id, qt.520.win32_msvc2012.essentials_kit
+C:\Qt\Qt5.2.0\/Tools/QtCreator\bin\sdktool.exe" started, arguments: "addKit --id qt.520.win32_msvc2012.essentials_kit --name Desktop Qt 5.2.0 MSVC2012 32bit --toolchain x86-windows-msvc2012-pe-32bit --qt qt.520.win32_msvc2012.essentials --debuggerengine 4 --devicetype Desktop
+Done
+backup qt.520.win32_msvc2012.addons operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.addons/5.2.0msvc2012_32_addons.7z, C:\Qt\Qt5.2.0
+Done
+perform qt.520.win32_msvc2012.addons operation: Extract
+	- arguments: installer://qt.520.win32_msvc2012.addons/5.2.0msvc2012_32_addons.7z, C:\Qt\Qt5.2.0
+Done
+backup qt.520.win32_msvc2012.addons operation: QtPatch
+	- arguments: windows, C:\Qt\Qt5.2.0/5.2.0/msvc2012, QmakeOutputInstallerKey=qt.520.win32_msvc2012_qmakeoutput, qt5
+Done
+perform qt.520.win32_msvc2012.addons operation: QtPatch
+	- arguments: windows, C:\Qt\Qt5.2.0/5.2.0/msvc2012, QmakeOutputInstallerKey=qt.520.win32_msvc2012_qmakeoutput, qt5
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/declarative/helper/deployment.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/declarative/helper/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/gui/openglwindow/openglwindow.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/gui/rasterwindow/rasterwindow.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/spectrum/spectrum.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/qmlvideofx/qmlapplicationviewer/qmlapplicationviewer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/frequencymonitor/frequencymonitor.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/frequencymonitor/frequencymonitordeclarative.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/performancemonitor/performancemonitor.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/multimedia/video/snippets/performancemonitor/performancemonitordeclarative.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/basiclayouts/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/gallery/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/splitview/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/tableview/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/texteditor/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/quick/controls/touch/src/src.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/script/customclass/bytearrayclass.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/script/qsdbg/qsdbg.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/examples/widgets/painting/shared/shared.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libEGL.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libEGLd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libGLESv2.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/libGLESv2d.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5AxBase.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5AxBased.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5AxContainer.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5AxContainerd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5AxServer.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5AxServerd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Bluetooth.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Bluetoothd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Bootstrap.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5CLucene.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5CLucened.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Concurrent.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Concurrentd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Core.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Cored.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Declarative.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Declaratived.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Designer.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5DesignerComponents.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5DesignerComponentsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Designerd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Gui.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Guid.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Help.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Helpd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Multimedia.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Multimediad.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaQuick_p.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaQuick_pd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaWidgets.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5MultimediaWidgetsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Network.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Networkd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Nfc.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Nfcd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGL.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGLd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGLExtensions.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5OpenGLExtensionsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PlatformSupport.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PlatformSupportd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Positioning.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Positioningd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PrintSupport.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5PrintSupportd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Qml.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Qmld.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QmlDevTools.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Quick.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Quickd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickParticles.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickParticlesd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickTest.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5QuickTestd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Script.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Scriptd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5ScriptTools.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5ScriptToolsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Sensors.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Sensorsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5SerialPort.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5SerialPortd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Sql.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Sqld.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Svg.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Svgd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Test.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Testd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5UiTools.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5UiToolsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKit.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKitd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKitWidgets.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WebKitWidgetsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Widgets.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Widgetsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WinExtras.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5WinExtrasd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Xml.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5Xmld.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5XmlPatterns.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/Qt5XmlPatternsd.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/qtmain.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/lib/qtmaind.prl'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/features/dbuscommon.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_axbase.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_axbase_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_axcontainer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_axcontainer_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_axserver.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_axserver_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_bluetooth.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_bluetooth_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_bootstrap_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_clucene_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_concurrent.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_concurrent_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_core.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_core_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_declarative.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_declarative_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_designer.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_designercomponents_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_designer_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_gui.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_gui_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_help.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_help_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimedia.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimediawidgets.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimediawidgets_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_multimedia_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_network.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_network_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_nfc.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_nfc_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_opengl.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_openglextensions.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_openglextensions_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_opengl_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_platformsupport_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_positioning.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_positioning_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_printsupport.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_printsupport_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qml.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qmldevtools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qmltest.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qmltest_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qml_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_quick.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_quickparticles_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_quick_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_script.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_scripttools.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_scripttools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_script_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_sensors.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_sensors_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_serialport.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_serialport_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_sql.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_sql_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_svg.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_svg_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_testlib.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_testlib_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_uitools.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_uitools_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkit.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkitwidgets.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkitwidgets_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_webkit_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_widgets.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_widgets_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_winextras.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_winextras_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xml.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xmlpatterns.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xmlpatterns_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/modules/qt_lib_xml_private.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qconfig.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qdevice.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qfeatures.pri'
+QtPatchOperation::getDirContent match: 'C:/Qt/Qt5.2.0/5.2.0/msvc2012/mkspecs/qmodule.pri'
+Done
+create Error-Exception: "Found a binary data file, but we are the installer and we should read the binary resource from our very own binary!"
+Operations start: 241961
+Operations end: 16
+Resource count: 1
+Data block size: 592812434
+Magic marker: 302133811
+Magic cookie: 14007050384008702200
+Index size: 48
+End of data: 606642066
+Writing uninstaller: "C:\Qt\Qt5.2.0/MaintenanceTool.exe.new"
+Maintenance tool restart: false.
+SHOW FINISHED PAGE
+run application as detached process: "C:\Qt\Qt5.2.0\\Tools\QtCreator\bin\qtcreator.exe" () "C:/Users/clientmd"

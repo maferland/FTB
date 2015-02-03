@@ -1,0 +1,15 @@
+﻿La génération a démarré 2014-11-17 18:22:31.
+     1>Projet "C:\Users\Marc-Antoine\Desktop\FTB\420-440-SF-H14-TP3-2-EQ04\GUI\GUI.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>CustomBuild:
+         Moc'ing gui.h...
+         Le chemin d'accès spécifié est introuvable.
+         Uic'ing gui.ui...
+         Le chemin d'accès spécifié est introuvable.
+         Rcc'ing gui.qrc...
+         Le chemin d'accès spécifié est introuvable.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): error MSB6006: Arrêt de "cmd.exe" avec le code 3.
+     1>Génération du projet "C:\Users\Marc-Antoine\Desktop\FTB\420-440-SF-H14-TP3-2-EQ04\GUI\GUI.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.38

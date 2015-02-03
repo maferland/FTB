@@ -1,0 +1,18 @@
+﻿La génération a démarré 2014-11-17 18:22:27.
+     1>Projet "C:\Users\Marc-Antoine\Desktop\FTB\420-440-SF-H14-TP3-2-EQ04\Visualizer\Visualizer.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CustomSound.cpp MediaSystem.cpp SoundInfo.cpp Visualizer.cpp
+         Visualizer.cpp
+     1>c:\users\marc-antoine\desktop\ftb\420-440-sf-h14-tp3-2-eq04\visualizer\mediasystem.h(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'fmod.hpp' : No such file or directory
+         SoundInfo.cpp
+     1>c:\users\marc-antoine\desktop\ftb\420-440-sf-h14-tp3-2-eq04\visualizer\soundinfo.cpp(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'id3\tag.h' : No such file or directory
+         MediaSystem.cpp
+     1>c:\users\marc-antoine\desktop\ftb\420-440-sf-h14-tp3-2-eq04\visualizer\mediasystem.h(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'fmod.hpp' : No such file or directory
+         CustomSound.cpp
+     1>c:\users\marc-antoine\desktop\ftb\420-440-sf-h14-tp3-2-eq04\visualizer\customsound.h(3): fatal error C1083: Impossible d'ouvrir le fichier include : 'fmod.hpp' : No such file or directory
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\Marc-Antoine\Desktop\FTB\420-440-SF-H14-TP3-2-EQ04\Visualizer\Visualizer.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.11

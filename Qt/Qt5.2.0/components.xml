@@ -1,0 +1,107 @@
+<Packages>
+    <ApplicationName>Qt 5.2.0</ApplicationName>
+    <ApplicationVersion>5.2.0</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt</Title>
+        <Description>Qt 5.2.0</Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>82710</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.520</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.2.0</Title>
+        <Description>Qt 5.2.0</Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Pixmap></Pixmap>
+        <Title>Tools</Title>
+        <Description>Various tools included in the Qt</Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.readme</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.2.0 Readme</Title>
+        <Description>Qt 5.2.0 Readme</Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>5859</Size>
+        <Dependencies></Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.520.win32_msvc2012</Name>
+        <Pixmap></Pixmap>
+        <Title>msvc2012 32-bit</Title>
+        <Description>Qt 5.2.0 Prebuilt Components for msvc2012 32-bit</Description>
+        <Version>5.2.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist</Name>
+        <Pixmap></Pixmap>
+        <Title>VCRedist for MSVC 32bit</Title>
+        <Description>Needed by all included Qt applications.</Description>
+        <Version>2011-03-03</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>4995416</Size>
+        <Dependencies></Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Creator</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>3.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>173123072</Size>
+        <Dependencies>qt.tools.vcredist</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.520.win32_msvc2012.essentials</Name>
+        <Pixmap></Pixmap>
+        <Title>Essential modules</Title>
+        <Description>Qt 5.2.0 Prebuilt Essential modules for msvc2012 32-bit</Description>
+        <Version>5.2.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>2066326755</Size>
+        <Dependencies>qt.tools.qtcreator,qt.tools.vcredist</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.520.win32_msvc2012.addons</Name>
+        <Pixmap></Pixmap>
+        <Title>Add-On modules</Title>
+        <Description>Qt 5.2.0 Prebuilt Add-on modules for msvc2012 32-bit</Description>
+        <Version>5.2.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-02-03</InstallDate>
+        <Size>101298616</Size>
+        <Dependencies>qt.520.win32_msvc2012.essentials</Dependencies>
+    </Package>
+</Packages>
